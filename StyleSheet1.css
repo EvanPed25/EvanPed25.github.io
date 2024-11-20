@@ -3,13 +3,20 @@
     text-align: center;
 }
 
+.seperator{
+    height: 1px;
+    border-bottom: 3px solid #808080;
+    width: 100%;
+}
+
+
 .textbox h1{
     text-align: center;
     text-decoration: wavy;
-    color: chocolate;
+    color: black;
+    font: 40px times new roman;
 }
-.shell
-{
+.shell{
   min-width: 1680px;
   width: 100%;
 }
@@ -28,20 +35,25 @@
     padding: 20px;
 }
 
+
 .header {
     display: inline-block;
     width: 100%;
-    height: 250px;
+    height: 200px;
     text-align: center;
 }
 
 .title {
     height: 200px;
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 50px;
     align-items: center;
     display: block;
+}
+
+.title h1{
+    font: bold 50px calibre;
 }
 
 grid 
@@ -56,18 +68,19 @@ grid
 }
 
 .section {
+    position: sticky;
     display: flex;
     top: 2rem;
     grid-column: 1 / -1;
     grid-row: 1;
     justify-content: left;
-
+    padding-block:auto;
 }
 
 ul, ol {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 2px;
     color: #888;
 }
 
@@ -77,6 +90,16 @@ ul {
 
 li {
     margin-left: 2rem;
+    padding: 3px
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font: times new roman;
+    padding: 2px;
+    margin: 2px
 }
 
 .nav-section a:hover,
