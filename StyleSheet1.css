@@ -64,22 +64,22 @@ grid
 
 }
 
-ol, li{
+ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: black;
-    overflow: hidden;
+    color: #888;
 }
 
-li{
-    display:block;
+ul {
+    margin-left: 3rem;
+}
+
+li {
     margin-left: 2rem;
-    padding: 2px;
 }
 
-li a{
-    color: black;
-    justify-content: center;
-    
+.nav-section a:hover,
+.nav-section a:focus{
+    color: deeppink;
 }
