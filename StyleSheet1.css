@@ -1,11 +1,13 @@
 ﻿body
 {
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
-.seperator{
+.seperator {
     height: 1px;
-    border-bottom: 3px solid #808080;
+    border-bottom: 3px solid indianred;
     width: 100%;
 }
 
@@ -13,7 +15,7 @@
 .textbox h1{
     text-align: center;
     text-decoration: wavy;
-    color: black;
+    color: white;
     font: 40px times new roman;
 }
 .shell{
@@ -22,19 +24,19 @@
 }
 
 .textbox {
-    color: black;
+    color: white;
     text-align: justify;
     font-family: 'calibri', sans-serif;
     font-size: 22px;
     width: 40%;
     margin: auto;
     border-style: solid;
-    border-color: #808080;
+    border-color: indianred;
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
+    justify-content: center;
 }
-
 
 .header {
     display: inline-block;
@@ -52,9 +54,10 @@
     display: block;
 }
 
-.title h1{
-    font: bold 50px calibre;
-}
+    .title h1 {
+        font: bold 50px calibre;
+        padding-bottom: 15px;
+    }
 
 grid 
 {
@@ -73,15 +76,14 @@ grid
     top: 2rem;
     grid-column: 1 / -1;
     grid-row: 1;
-    justify-content: left;
-    padding-block:auto;
 }
 
 ul, ol {
     list-style: none;
-    margin: 0;
+    margin: 0px;
     padding: 2px;
-    color: #888;
+    color: white;
+    justify-items: left;
 }
 
 ul {
@@ -95,14 +97,16 @@ li {
 
 li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 18px;
     font: times new roman;
     padding: 2px;
     margin: 2px
 }
 
-.nav-section a:hover,
-.nav-section a:focus{
-    color: deeppink;
+.textbox h1 img {
+    height: 75px;
+    width: 125px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
