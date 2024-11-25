@@ -36,7 +36,12 @@
     border-radius: 5px;
     padding: 20px;
     justify-content: center;
+    position: sticky;
 }
+
+    .textbox a {
+        text-decoration: none;
+    }
 
 .header {
     display: inline-block;
@@ -76,6 +81,10 @@ grid {
     grid-column: 1 / -1;
     grid-row: 1;
 }
+
+    .section:hover {
+        color: darkred;
+    }
 
 ul, ol {
     list-style: none;
