@@ -36,11 +36,11 @@
     border-radius: 5px;
     padding: 20px;
     justify-content: center;
-    position: sticky;
 }
 
     .textbox a {
         text-decoration: none;
+        position: sticky;
     }
 
 .header {
@@ -82,8 +82,8 @@ grid {
     grid-row: 1;
 }
 
-    .section:hover {
-        color: darkred;
+    .section li a:hover {
+        color: red;
     }
 
 ul, ol {
@@ -92,6 +92,11 @@ ul, ol {
     padding: 2px;
     color: white;
     justify-items: left;
+}
+
+ol{
+    margin-left: 3rem;
+    color: red;
 }
 
 ul {
