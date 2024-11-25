@@ -136,3 +136,12 @@ li {
 .textbox h1 {
     padding: 5px;
 }
+
+.accordion-item img {
+    height: 90%;
+    width: 90%;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
