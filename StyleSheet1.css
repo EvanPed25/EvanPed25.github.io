@@ -16,6 +16,7 @@
     text-decoration: wavy;
     color: white;
     font: 40px times new roman;
+    padding: 10px;
 }
 
 .shell {
@@ -47,7 +48,6 @@
     display: inline-block;
     width: 100%;
     height: 200px;
-    text-align: center;
 }
 
 .title {
@@ -118,11 +118,15 @@ li {
     }
 
 .textbox h1 img {
-    height: 75px;
-    width: 125px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: sticky;
+    height: 30%;
+    width: 16%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
 }
 
 .carousel p {
@@ -131,10 +135,6 @@ li {
 
 .carousel h5 {
     color: black;
-}
-
-.textbox h1 {
-    padding: 5px;
 }
 
 .accordion-item img {
